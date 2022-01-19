@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/******** Wire Frame exercise
+*/
+header {
+  background-color: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+header img {
+  float: left;
+  margin-top: 15px;
+}
+
+header ul li {
+  display:inline-block;
+  margin-top: 45px;
+  margin-left: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main ul li {
+  float: left;
+  margin: 30px 30px 30px 0px;
+}
+
+main ul li:last-child {
+  margin-right: 0px;
+}
+section div {
+  float: right;
+  width: 20px;
+}
+
+section div p {
+  height: 300px;
+  overflow: auto;
+  width: 450px;
+  float: right;
+  margin: 10px 10px 30px 0px;
+}
+
+section img {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  margin-right: 340px;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button:hover {
+  height: 30px;
+  width: 100px;
+  background-color: gray;
+  color: black;
+  margin-right: 340px;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.feature h2 {
+  font-weight: bolder;
+  margin-right: 340px;
+}
+
+footer { 
+  background-color: #444;
+  height: 100px;
+  padding: 0 20px;
+  margin-top: 900px;
+}
